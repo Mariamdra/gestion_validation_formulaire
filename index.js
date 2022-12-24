@@ -89,12 +89,12 @@ const form_verify = () => {
   // password confirm
   if (passValue2 === "") {
     let message = "Le pass word ne peut pas être vide";
-    setError(passValue2, message);
+    setError(passWord2, message);
   } else if (passValue !== passValue2) {
     let message = "les mots de passent ne correspondent pas";
-    setError(passValue2, message);
+    setError(passWord2, message);
   } else{
-    setSucess(passValue2)
+    setSucess(passWord2)
   }
 };
 
